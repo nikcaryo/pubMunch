@@ -38,8 +38,7 @@ ucscScriptDir = normpath(join(dirname(__file__), "..", "ucscScripts"))
 # one of them is the NLM Catalog, others we got from publishers or created them semi-
 # manually
 #journalListDir = join(staticDataDir, "journalLists")
-#journalListDir = join(staticDataDir, "journalLists")
-journalListDir = "/hive/data/inside/pubs/journalLists/"
+journalListDir = join(staticDataDir, "journalLists")
 
 # base dir for anything journal related in the repo data dir
 journalInfoDir = join(staticDataDir, "journals")
